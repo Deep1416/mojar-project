@@ -45,6 +45,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .left_nav{
     margin-top: 10px;
@@ -650,9 +651,9 @@ main{
    width: 80%; 
 }
 
-.card-scroll::-webkit-scrollbar{
+/* .card-scroll::-webkit-scrollbar{
     width: 0;
-}
+} */
 
 .angle-right span{
     font-size: 50px;
